@@ -234,11 +234,12 @@ class _CarouselState extends State<Carousel> {
                                     scrollPosition(updateRender, function: f);
                                   },
                                   child: Container(
-                                    height: widget.height / 2,
-                                    width: 40.0,
-                                    color: active
-                                        ? Color(0x77121212)
-                                        : Colors.transparent,
+                                    height: widget.height / 6,
+                                    width: 30.0,
+                                    color: Colors.black12,
+//                                    active
+//                                        ? Color(0x77121212)
+//                                        : Colors.transparent,
                                     child: Icon(
                                       f == "back"
                                           ? Icons.arrow_back_ios
